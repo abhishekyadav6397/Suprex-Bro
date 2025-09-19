@@ -3,67 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Suprex Gaming Bro - Website</title>
+  <title>Suprex Bro</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #111;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0a0a;
       color: #fff;
-      text-align: center;
     }
     header {
-      background: #222;
-      padding: 20px;
-      font-size: 24px;
+      background: linear-gradient(90deg, #00ffe0, #ff00ff, #ff0040);
+      padding: 25px;
+      text-align: center;
+      font-size: 30px;
       font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 0 0 20px #ff00ff;
+      box-shadow: 0 0 25px rgba(0,255,255,0.6);
     }
-    .container {
-      padding: 20px;
+    header p {
+      margin: 10px 0 0;
+      font-size: 16px;
+      font-weight: normal;
     }
-    .video-card {
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 14px;
+      box-shadow: 0 0 15px rgba(0,255,255,0.2);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00ffe0;
+      text-shadow: 0 0 10px #00ffe0;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #00ffe0;
+      text-shadow: 0 0 15px #00ffe0;
+    }
+    .card {
+      background: #1a1a1a;
       margin: 20px auto;
       max-width: 800px;
-      background: #1c1c1c;
-      padding: 15px;
       border-radius: 12px;
-      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+      padding: 15px;
+      box-shadow: 0 0 20px rgba(255,0,255,0.4);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 30px rgba(0,255,255,0.6);
     }
     iframe {
       width: 100%;
-      height: 450px;
+      height: 400px;
       border-radius: 12px;
     }
     footer {
-      background: #222;
-      padding: 10px;
-      margin-top: 20px;
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
       font-size: 14px;
+      color: #aaa;
+      box-shadow: 0 0 20px rgba(255,0,255,0.2);
+    }
+    .social a {
+      margin: 0 10px;
+      color: #00ffe0;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      color: #ff0040;
+      text-shadow: 0 0 10px #ff0040;
     }
   </style>
 </head>
 <body>
 
-  <header>🎬 Suprex Gaming Bro - Webseries</header>
+  <header>
+    Suprex Bro
+    <p>Welcome To Suprex Family 🫂 Here You Find Everything That You Need 🤘</p>
+  </header>
 
-  <div class="container">
-    <h2>Episode 1</h2>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/riU1FXdu7Lv7q9pf" frameborder="0" allowfullscreen></iframe>
+  <nav>
+    <a href="#episodes">Episodes</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Episodes Section -->
+  <section id="episodes">
+    <h2>🎬 Webseries Episodes</h2>
+
+    <div class="card">
+      <h3>Minecraft Playlist</h3>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLDYBFiQ5wH8CyV5SkzPsITnsH0F2nXd5z" allowfullscreen></iframe>
     </div>
 
-    <h2>Episode 2</h2>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/EHL9KSIQP3ZOkG2S" frameborder="0" allowfullscreen></iframe>
+    <div class="card">
+      <h3>Amazing Android Games</h3>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLDYBFiQ5wH8B7gczjRrUYanlj1OsikmXw" allowfullscreen></iframe>
     </div>
+  </section>
 
-    <h2>Episode 3</h2>
-    <div class="video-card">
-      <iframe src="https://www.youtube.com/embed/WVaeY3Ne0h5H08lZ" frameborder="0" allowfullscreen></iframe>
+  <!-- Products Section -->
+  <section id="products">
+    <h2>🛒 Future Products</h2>
+    <div class="card">
+      <h3>🔥 Suprex Bro Official Merch Coming Soon...</h3>
+      <p>Stay tuned for exclusive gaming products, hoodies, T-shirts, and more!</p>
     </div>
-  </div>
+  </section>
 
-  <footer>© 2025 Suprex Gaming Bro | All Rights Reserved</footer>
+  <!-- About Section -->
+  <section id="about">
+    <h2>ℹ About Suprex Bro</h2>
+    <div class="card">
+      <p>
+        Suprex Bro is not just a channel, it’s a family 🫂 built for gamers, dreamers, and hustlers.  
+        Here you’ll find crazy Minecraft adventures, amazing Android games, and much more.  
+        Our mission is to entertain, inspire, and build a powerful gaming community 💀🔥
+      </p>
+      <p>
+        <b>Rules & Regulations:</b><br>
+        ✅ Respect everyone in the community.<br>
+        ✅ No toxic behavior, only positive vibes.<br>
+        ✅ Gaming is fun, keep it friendly.<br>
+        ✅ Support each other and grow together 🤘
+      </p>
+      <p>And remember… Bahut kuchh aane wala hai future me Suprex Bro Website pe 💀🔥</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>📩 Contact & Socials</h2>
+    <div class="card social">
+      <p><b>Business Email:</b> <a href="mailto:abhishekyadav729194@gmail.com">abhishekyadav729194@gmail.com</a></p>
+      <p>
+        <a href="https://www.instagram.com/suprexgamingbro?igsh=azVlc3VzNDJsZ2l0" target="_blank">Instagram</a> | 
+        <a href="https://x.com/SuprexGamingBro?t=KX-kMSpOx0KR1Pvn4PT7Vg&s=09" target="_blank">Twitter</a> | 
+        <a href="https://whatsapp.com/channel/0029Vb5nvkx0LKZ6JXWXC13G" target="_blank">WhatsApp</a> | 
+        <a href="https://discord.gg/YWfhE2UvaM" target="_blank">Discord</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Suprex Bro | Powered by Suprex Family 🫂🔥
+  </footer>
 
 </body>
 </html>
